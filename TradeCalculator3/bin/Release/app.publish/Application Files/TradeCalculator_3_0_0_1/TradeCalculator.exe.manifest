@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="3.0.0.1" name="TradeCalculator.exe" publicKeyToken="e5454ad8358b2b91" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="D4M Logo Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TradeCalculator" version="3.0.3342.24466" publicKeyToken="261F87E4D334BA7E" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TradeCalculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TradeCalculator.exe" size="314368">
+      <assemblyIdentity name="TradeCalculator" version="3.0.3342.24466" publicKeyToken="261F87E4D334BA7E" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>bBrmui1labOBSTHz84l6kSfsdWE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="D4M Logo Icon.ico" size="35830">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>noK872Jr17H9DKOD+7Hjg30LSI0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon.ico" size="35830">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>noK872Jr17H9DKOD+7Hjg30LSI0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HelpData.xml" size="407" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0mhsWpyn9t/Zl5Bg3TGvGfYXlgg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Tmplates.txt" size="1708">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>KSbmzdGQkcv9lmBEvfMDABHAb64=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TradeCalculator.exe.config" size="1179">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>NsY3Uai4G0vBe3mMMri/fkW2S6Q=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=D4M\chris" issuerKeyHash="6618e1ebdb6b3c5d5c5f8e34e6f0d3b3b269a9ee" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>L6O0t2Q/muY0lnmLXqFgdAjZXBg=</DigestValue></Reference></SignedInfo><SignatureValue>I8rSEuRmgFmwKnJp1ntOhVWfsZJJwvQcXTNBEakFz/6+7iiX/zJaToCv/N4im+ikw95TuEXbFkWi63cdjkzJdDiiReKq8SYxrzjyJXKG3wOKb38/L88ecwEppJUs/lSrFsL0yquIINPbg72vSiX0Z4GNhL/bTIPmU8zm3ckYhBc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4P0T5SsiIWZbyQTegLycodvmTaJe/pgad7t2lQiDaRoQ3C9J84oPVBhgJlq/88caand6LLDlcuCQ1AGDsW+9UJH64eKngaOAkcd43BevVOhhQnojrCLWDIDBdEnKK7PyOa0TNl8Nv3aeCfkJ6cRcEttSeLBC7/U3Pup8BQ8Jv00=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="185cd9087460a15e8b799634e69a3f64b7b4a32f" Description="" Url=""><as:assemblyIdentity version="3.0.0.1" name="TradeCalculator.exe" publicKeyToken="e5454ad8358b2b91" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=D4M\chris</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8Hqg8/51WqNdpyVaGxOnEVdBifc=</DigestValue></Reference></SignedInfo><SignatureValue>cOlZZsKtOmDritWxdyW61DWaK033J/UrWL3sZMPfcE5SW7QKBW5tsOs9UUksgz5EdMjXaDwqXeUvnk6SnV4YIL9+6cG+g9GxDKAiw7sXoBOP13VbLKT/2AFbRRA+6auKZEMUR5fFkEW/V7TfxIiqvuTbsRvKlFjBRpOi1mzclP4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4P0T5SsiIWZbyQTegLycodvmTaJe/pgad7t2lQiDaRoQ3C9J84oPVBhgJlq/88caand6LLDlcuCQ1AGDsW+9UJH64eKngaOAkcd43BevVOhhQnojrCLWDIDBdEnKK7PyOa0TNl8Nv3aeCfkJ6cRcEttSeLBC7/U3Pup8BQ8Jv00=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQSODyNLlD6o9MkMBi2ONWPjANBgkqhkiG9w0BAQUFADAdMRswGQYDVQQDHhIARAA0AE0AXABjAGgAcgBpAHMwHhcNMDkwMTA5MjAwNjI4WhcNMTAwMTEwMDIwNjI4WjAdMRswGQYDVQQDHhIARAA0AE0AXABjAGgAcgBpAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOD9E+UrIiFmW8kE3oC8nKHb5k2iXv6YGne7dpUIg2kaENwvSfOKD1QYYCZav/PHGmp3eiyw5XLgkNQBg7FvvVCR+uHip4GjgJHHeNwXr1ToYUJ6I6wi1gyAwXRJyiuz8jmtEzZfDb92ngn5CenEXBLbUniwQu/1Nz7qfAUPCb9NAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAf5dk/x28QHFaj2wx28MG2GfNcHMilNl2c0z7wE5f59YzxTkZJCkBYr4eUYY9H1Q0Io/yEnA02Evubyrtu+hdA49antgo1kXjSw/wvDWZIBqm/uoP8tyLa0eQLnfAr2rLQafYTTWrPg1vXVZVSjyG6H6Lee0+BgkWSCdGoPxRDw8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

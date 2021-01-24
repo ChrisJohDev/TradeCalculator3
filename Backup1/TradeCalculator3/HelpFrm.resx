@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="splitContainer1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainer1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panel1.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_condition.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txt_condition.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txt_condition.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 103</value>
+  </data>
+  <data name="txt_condition.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_condition.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_condition.Name" xml:space="preserve">
+    <value>txt_condition</value>
+  </data>
+  <data name="&gt;&gt;txt_condition.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_condition.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;txt_condition.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 103</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 122</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Conditions:</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="ascendingTriangleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="ascendingTriangleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ascending Triangle</value>
+  </data>
+  <data name="ascendingTriangleToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="descendingTriangleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="descendingTriangleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Descending Triangle</value>
+  </data>
+  <data name="descendingTriangleToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="eMA10FollowerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="eMA10FollowerToolStripMenuItem.Text" xml:space="preserve">
+    <value>EMA(10) Follower</value>
+  </data>
+  <data name="eMA10FollowerToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="flagpoleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="flagpoleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Flagpole</value>
+  </data>
+  <data name="flagpoleToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="horizontalRangeToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="horizontalRangeToolStripMenuItem.Text" xml:space="preserve">
+    <value>Horizontal Range</value>
+  </data>
+  <data name="horizontalRangeToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="slingShotToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="slingShotToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sling Shot</value>
+  </data>
+  <data name="slingShotToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="symmetricalTriangleToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 22</value>
+  </data>
+  <data name="symmetricalTriangleToolStripMenuItem.Text" xml:space="preserve">
+    <value>Symmetrical Triangle</value>
+  </data>
+  <data name="symmetricalTriangleToolStripMenuItem.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>Overlay</value>
+  </data>
+  <data name="tradeTopicsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
+  </data>
+  <data name="tradeTopicsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Trade Topics</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Name" xml:space="preserve">
+    <value>splitContainer1.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitContainer2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitContainer2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitContainer2.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="panel2.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_setup.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txt_setup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txt_setup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 120</value>
+  </data>
+  <data name="txt_setup.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_setup.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_setup.Name" xml:space="preserve">
+    <value>txt_setup</value>
+  </data>
+  <data name="&gt;&gt;txt_setup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_setup.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;txt_setup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 120</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 139</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Trade Setup:</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Name" xml:space="preserve">
+    <value>splitContainer2.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.Parent" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel3.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txt_maintenance.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txt_maintenance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txt_maintenance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 102</value>
+  </data>
+  <data name="txt_maintenance.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txt_maintenance.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;txt_maintenance.Name" xml:space="preserve">
+    <value>txt_maintenance</value>
+  </data>
+  <data name="&gt;&gt;txt_maintenance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txt_maintenance.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;txt_maintenance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>645, 102</value>
+  </data>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 121</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Trade Maintenance:</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Name" xml:space="preserve">
+    <value>splitContainer2.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 264</value>
+  </data>
+  <data name="splitContainer2.SplitterDistance" type="System.Int32, mscorlib">
+    <value>139</value>
+  </data>
+  <data name="splitContainer2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Name" xml:space="preserve">
+    <value>splitContainer2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.Parent" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Name" xml:space="preserve">
+    <value>splitContainer1.Panel2</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.Parent" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 414</value>
+  </data>
+  <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
+    <value>146</value>
+  </data>
+  <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Name" xml:space="preserve">
+    <value>splitContainer1</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>651, 414</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAoAEBAQAAAAAAAoAQAApgAAACAgEAAAAAAA6AIAAM4BAAAQEAAAAAAAAGgFAAC2BAAAICAAAAAA
+        AACoCAAAHgoAADAwEAAAAAAAaAYAAMYSAAAwMAAAAAAAAKgOAAAuGQAAQEAQAAAAAABoCgAA1icAAEBA
+        AAAAAAAAKBYAAD4yAABgYBAAAAAAAOgWAABmSAAAYGAAAAAAAACoLAAATl8AACgAAAAQAAAAIAAAAAEA
+        BAAAAAAAgAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAgICAAMDA
+        wAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzJmcy7vM
+        qqzMmZzLu8yqrMyZnMu7zKqszMzMzMzMzMyIiIiIiIiIiMzMzMzMzMzMiIiIiIiIiIjMzMzMzMzMzM7s
+        zMzszszszs7M7uzO7O7Mzszs7M7OzO7szuzs7szMzMzMzMzMzMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAEAAAA
+        AAAAAgAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICAAACAgIAAwMDAAAAA
+        /wAA/wAAAP//AP8AAAD/AP8A//8AAP///wDMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzJmZmZzMy7u7u8zMqqqqrMyZmZmczMu7u7vMzKqq
+        qqzMmZmZnMzLu7u7zMyqqqqszJmZmZzMy7u7u8zMqqqqrMyZmZmczMu7u7vMzKqqqqzMmZmZnMzLu7u7
+        zMyqqqqszJmZmZzMy7u7u8zMqqqqrMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAzMzMzMzMzMzMzMzMzMzMzIiI
+        iIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzM7u7szMzM7szM7s7s7u7szM7s7uzMzM7szM7s7s7szMzO7Mzuzu7u7uzO7O7u7MzMzuzM7szszuzM
+        zu7uzu7MzMzuzM7s7szuzMzu7uzuzMzM7szO7M7s7szM7s7szszMzMzMzuzM7O7MzO7O7MzMzu7u7u7M
+        zuzO7u7uzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAKAAAABAAAAAgAAAAAQAIAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAIAAAIAAAACA
+        gACAAAAAgACAAICAAADAwMAAwNzAAPDKpgAEBAQACAgIAAwMDAAREREAFhYWABwcHAAiIiIAKSkpAFVV
+        VQBNTU0AQkJCADk5OQCAfP8AUFD/AJMA1gD/7MwAxtbvANbn5wCQqa0AAAAzAAAAZgAAAJkAAADMAAAz
+        AAAAMzMAADNmAAAzmQAAM8wAADP/AABmAAAAZjMAAGZmAABmmQAAZswAAGb/AACZAAAAmTMAAJlmAACZ
+        mQAAmcwAAJn/AADMAAAAzDMAAMxmAADMmQAAzMwAAMz/AAD/ZgAA/5kAAP/MADMAAAAzADMAMwBmADMA
+        mQAzAMwAMwD/ADMzAAAzMzMAMzNmADMzmQAzM8wAMzP/ADNmAAAzZjMAM2ZmADNmmQAzZswAM2b/ADOZ
+        AAAzmTMAM5lmADOZmQAzmcwAM5n/ADPMAAAzzDMAM8xmADPMmQAzzMwAM8z/ADP/MwAz/2YAM/+ZADP/
+        zAAz//8AZgAAAGYAMwBmAGYAZgCZAGYAzABmAP8AZjMAAGYzMwBmM2YAZjOZAGYzzABmM/8AZmYAAGZm
+        MwBmZmYAZmaZAGZmzABmmQAAZpkzAGaZZgBmmZkAZpnMAGaZ/wBmzAAAZswzAGbMmQBmzMwAZsz/AGb/
+        AABm/zMAZv+ZAGb/zADMAP8A/wDMAJmZAACZM5kAmQCZAJkAzACZAAAAmTMzAJkAZgCZM8wAmQD/AJlm
+        AACZZjMAmTNmAJlmmQCZZswAmTP/AJmZMwCZmWYAmZmZAJmZzACZmf8AmcwAAJnMMwBmzGYAmcyZAJnM
+        zACZzP8Amf8AAJn/MwCZzGYAmf+ZAJn/zACZ//8AzAAAAJkAMwDMAGYAzACZAMwAzACZMwAAzDMzAMwz
+        ZgDMM5kAzDPMAMwz/wDMZgAAzGYzAJlmZgDMZpkAzGbMAJlm/wDMmQAAzJkzAMyZZgDMmZkAzJnMAMyZ
+        /wDMzAAAzMwzAMzMZgDMzJkAzMzMAMzM/wDM/wAAzP8zAJn/ZgDM/5kAzP/MAMz//wDMADMA/wBmAP8A
+        mQDMMwAA/zMzAP8zZgD/M5kA/zPMAP8z/wD/ZgAA/2YzAMxmZgD/ZpkA/2bMAMxm/wD/mQAA/5kzAP+Z
+        ZgD/mZkA/5nMAP+Z/wD/zAAA/8wzAP/MZgD/zJkA/8zMAP/M/wD//zMAzP9mAP//mQD//8wAZmb/AGb/
+        ZgBm//8A/2ZmAP9m/wD//2YAIQClAF9fXwB3d3cAhoaGAJaWlgDLy8sAsrKyANfX1wDd3d0A4+PjAOrq
+        6gDx8fEA+Pj4APD7/wCkoKAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wD8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pn5+fz8+/v7/Pz6+vr8/Pz5+fn8
+        /Pv7+/z8+vr6/Pz8+fn5/Pz7+/v8/Pr6+vz8/Pz8/Pz8/Pz8/Pz8/Pz8BwcHBwcHBwcHBwcHBwcHB/z8
+        /Pz8/Pz8/Pz8/Pz8/PwHBwcHBwcHBwcHBwcHBwcH/Pz8/Pz8/Pz8/Pz8/Pz8/Pz+/vz8/Pz8/vz8/vz8
+        /vz8/vz+/Pz+/v78/P7+/P7+/Pz8/vz8/vz+/Pz+/P78/P7+/vz8/v78/vz+/vz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACgAAAAgAAAAQAAAAAEACAAAAAAAAAQAAAAAAAAAAAAAAAEAAAABAAAAAAAAAACAAACA
+        AAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYWFgAcHBwAIiIiACkp
+        KQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAAMwAAAGYAAACZAAAA
+        zAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm/wAAmQAAAJkzAACZ
+        ZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/zAAzAAAAMwAzADMA
+        ZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNmZgAzZpkAM2bMADNm
+        /wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM/wAz/zMAM/9mADP/
+        mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYzmQBmM8wAZjP/AGZm
+        AABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbMMwBmzJkAZszMAGbM
+        /wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkzMwCZAGYAmTPMAJkA
+        /wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnMAACZzDMAZsxmAJnM
+        mQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwAmQDMAMwAmTMAAMwz
+        MwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZMwDMmWYAzJmZAMyZ
+        zADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/zADM//8AzAAzAP8A
+        ZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9mzADMZv8A/5kAAP+Z
+        MwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/ZgD//5kA///MAGZm
+        /wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKysgDX19cA3d3dAOPj
+        4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8A/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pn5+fn5+fn8/Pz8+/v7+/v7+/z8/Pz6+vr6+vr6/Pz8+fn5+fn5+fz8/Pz7+/v7+/v7/Pz8/Pr6
+        +vr6+vr8/Pz5+fn5+fn5/Pz8/Pv7+/v7+/v8/Pz8+vr6+vr6+vz8/Pn5+fn5+fn8/Pz8+/v7+/v7+/z8
+        /Pz6+vr6+vr6/Pz8+fn5+fn5+fz8/Pz7+/v7+/v7/Pz8/Pr6+vr6+vr8/Pz5+fn5+fn5/Pz8/Pv7+/v7
+        +/v8/Pz8+vr6+vr6+vz8/Pn5+fn5+fn8/Pz8+/v7+/v7+/z8/Pz6+vr6+vr6/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/AcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/AcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        Cgr8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz+/v7+/vz8/Pz8/Pz+/vz8/Pz+/vz+/vz+/v7+/vz8/Pz+/vz+/v78/Pz8/Pz+/vz8/Pz+
+        /vz+/vz+/vz8/Pz8/P7+/Pz8/v78/v7+/v7+/v78/P7+/P7+/v7+/Pz8/Pz8/v78/Pz+/vz8/vz8/v78
+        /Pz8/v7+/v78/v7+/Pz8/Pz8/v78/Pz+/vz+/vz8/v78/Pz8/v7+/v78/v78/Pz8/Pz+/vz8/P7+/Pz+
+        /vz+/vz8/Pz+/vz+/vz8/vz8/Pz8/Pz8/Pz8/v78/Pz+/P7+/Pz8/P7+/P7+/Pz8/Pz8/v7+/v7+/v7+
+        /Pz8/v78/P7+/v7+/v78/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/AAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAKAAAADAAAABgAAAAAQAEAAAAAACABAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAIAAAIAAAACA
+        gACAAAAAgACAAICAAADAwMAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wDMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMmZmZmZmZzMy7u7u7u7vMzKqqqqqqqszMmZmZmZmZzMy7
+        u7u7u7vMzKqqqqqqqszMmZmZmZmZzMy7u7u7u7vMzKqqqqqqqszMmZmZmZmZzMy7u7u7u7vMzKqqqqqq
+        qszMmZmZmZmZzMy7u7u7u7vMzKqqqqqqqszMmZmZmZmZzMy7u7u7u7vMzKqqqqqqqszMmZmZmZmZzMy7
+        u7u7u7vMzKqqqqqqqszMmZmZmZmZzMy7u7u7u7vMzKqqqqqqqszMmZmZmZmZzMy7u7u7u7vMzKqqqqqq
+        qszMmZmZmZmZzMy7u7u7u7vMzKqqqqqqqszMmZmZmZmZzMy7u7u7u7vMzKqqqqqqqszMmZmZmZmZzMy7
+        u7u7u7vMzKqqqqqqqszMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMx3d3d3d3d3d3d3
+        d3d3d3d3d3d3d3d3d3eIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+        iIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMx3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3eIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+        iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzO7u7szMzMzMzu7MzM7uzO7MzO7u7szMzO7szu7MzMzMzO7szM7uzO7szO7szMzMzM7uzM7uzMzM
+        zO7szMzu7M7uzM7uzMzMzM7uzMzuzM7u7u7u7Mzu7s7u7s7uzMzMzM7uzMzu7M7u7u7u7szu7s7uzu7u
+        zMzMzMzu7MzO7szOzM7uzMzO7uzu7O7uzMzMzMzu7MzO7szM7M7uzMzO7s7u7M7uzMzMzMzu7MzO7szO
+        7szu7MzO7s7u7MzuzMzMzMzMzMzu7szO7uzu7MzO7szu7MzMzMzM7u7u7u7u7MzO7uzu7O7u7uzO7MzM
+        zMzMzu7u7u7uzMzM7szO7s7u7uzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAMAAAAGAAAAABAAgAAAAAAAAJAAAAAAAAAAAAAAAB
+        AAAAAQAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwADA3MAA8MqmAAQEBAAICAgADAwMABER
+        EQAWFhYAHBwcACIiIgApKSkAVVVVAE1NTQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/szADG1u8A1ufnAJCp
+        rQAAADMAAABmAAAAmQAAAMwAADMAAAAzMwAAM2YAADOZAAAzzAAAM/8AAGYAAABmMwAAZmYAAGaZAABm
+        zAAAZv8AAJkAAACZMwAAmWYAAJmZAACZzAAAmf8AAMwAAADMMwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/
+        mQAA/8wAMwAAADMAMwAzAGYAMwCZADMAzAAzAP8AMzMAADMzMwAzM2YAMzOZADMzzAAzM/8AM2YAADNm
+        MwAzZmYAM2aZADNmzAAzZv8AM5kAADOZMwAzmWYAM5mZADOZzAAzmf8AM8wAADPMMwAzzGYAM8yZADPM
+        zAAzzP8AM/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA/wBmMwAAZjMzAGYz
+        ZgBmM5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZAABmmTMAZplmAGaZmQBmmcwAZpn/AGbM
+        AABmzDMAZsyZAGbMzABmzP8AZv8AAGb/MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkzmQCZAJkAmQDMAJkA
+        AACZMzMAmQBmAJkzzACZAP8AmWYAAJlmMwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZZgCZmZkAmZnMAJmZ
+        /wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn//wDMAAAAmQAzAMwA
+        ZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxmAADMZjMAmWZmAMxmmQDMZswAmWb/AMyZ
+        AADMmTMAzJlmAMyZmQDMmcwAzJn/AMzMAADMzDMAzMxmAMzMmQDMzMwAzMz/AMz/AADM/zMAmf9mAMz/
+        mQDM/8wAzP//AMwAMwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8zmQD/M8wA/zP/AP9mAAD/ZjMAzGZmAP9m
+        mQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/MAAD/zDMA/8xmAP/MmQD/zMwA/8z/AP//
+        MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvL
+        ywCysrIA19fXAN3d3QDj4+MA6urqAPHx8QD4+PgA8Pv/AKSgoACAgIAAAAD/AAD/AAAA//8A/wAAAP8A
+        /wD//wAA////APz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5/Pz8/Pv7+/v7+/v7+/v7+/z8/Pz6+vr6
+        +vr6+vr6+vr8/Pz8+fn5+fn5+fn5+fn5/Pz8/Pv7+/v7+/v7+/v7+/z8/Pz6+vr6+vr6+vr6+vr8/Pz8
+        +fn5+fn5+fn5+fn5/Pz8/Pv7+/v7+/v7+/v7+/z8/Pz6+vr6+vr6+vr6+vr8/Pz8+fn5+fn5+fn5+fn5
+        /Pz8/Pv7+/v7+/v7+/v7+/z8/Pz6+vr6+vr6+vr6+vr8/Pz8+fn5+fn5+fn5+fn5/Pz8/Pv7+/v7+/v7
+        +/v7+/z8/Pz6+vr6+vr6+vr6+vr8/Pz8+fn5+fn5+fn5+fn5/Pz8/Pv7+/v7+/v7+/v7+/z8/Pz6+vr6
+        +vr6+vr6+vr8/Pz8+fn5+fn5+fn5+fn5/Pz8/Pv7+/v7+/v7+/v7+/z8/Pz6+vr6+vr6+vr6+vr8/Pz8
+        +fn5+fn5+fn5+fn5/Pz8/Pv7+/v7+/v7+/v7+/z8/Pz6+vr6+vr6+vr6+vr8/Pz8+fn5+fn5+fn5+fn5
+        /Pz8/Pv7+/v7+/v7+/v7+/z8/Pz6+vr6+vr6+vr6+vr8/Pz8+fn5+fn5+fn5+fn5/Pz8/Pv7+/v7+/v7
+        +/v7+/z8/Pz6+vr6+vr6+vr6+vr8/Pz8+fn5+fn5+fn5+fn5/Pz8/Pv7+/v7+/v7+/v7+/z8/Pz6+vr6
+        +vr6+vr6+vr8/Pz8+fn5+fn5+fn5+fn5/Pz8/Pv7+/v7+/v7+/v7+/z8/Pz6+vr6+vr6+vr6+vr8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/AcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB+zs
+        7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs
+        7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7AoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCvz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/AcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB+zs7Ozs7Ozs7Ozs7Ozs
+        7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs
+        7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7AoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCvz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz+/v7+/v78/Pz8/Pz8/Pz8/P7+/vz8
+        /Pz8/v7+/Pz+/vz8/Pz+/v7+/v78/Pz8/Pz+/v78/P7+/vz8/Pz8/Pz8/Pz+/v78/Pz8/v7+/Pz+/v78
+        /Pz+/v78/Pz8/Pz8/Pz8/v7+/Pz8/v7+/Pz8/Pz8/Pz+/v78/Pz8/P7+/vz8/v7+/Pz8/v7+/Pz8/Pz8
+        /Pz8/v7+/Pz8/P7+/Pz8/v7+/v7+/v7+/vz8/P7+/v78/v7+/v78/v7+/Pz8/Pz8/Pz8/v7+/Pz8/P7+
+        /vz8/v7+/v7+/v7+/v78/P7+/v78/v7+/P7+/v7+/Pz8/Pz8/Pz8/P7+/vz8/Pz+/v78/Pz+/Pz8/v7+
+        /Pz8/Pz+/v7+/P7+/vz+/v7+/Pz8/Pz8/Pz8/P7+/vz8/Pz+/v78/Pz8/vz8/v7+/Pz8/Pz+/v78/v7+
+        /vz8/v7+/Pz8/Pz8/Pz8/P7+/vz8/Pz+/v78/Pz+/v78/P7+/vz8/Pz+/v78/v7+/vz8/P7+/Pz8/Pz8
+        /Pz8/Pz8/Pz8/P7+/v78/Pz+/v7+/P7+/vz8/Pz+/v78/P7+/vz8/Pz8/Pz8/Pz8/v7+/v7+/v7+/v7+
+        /vz8/Pz+/v7+/P7+/vz+/v7+/v7+/Pz+/vz8/Pz8/Pz8/Pz8/P7+/v7+/v7+/v7+/Pz8/Pz8/v78/Pz+
+        /v78/v7+/v7+/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgA
+        AABAAAAAgAAAAAEABAAAAAAAAAgAAAAAAAAAAAAAEAAAABAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAA
+        gACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMmZmZmZmZmZnMzMu7u7u7u7u7vMzMqqqqqqqqqqrMzMyZmZmZmZmZmc
+        zMy7u7u7u7u7u8zMyqqqqqqqqqqszMzJmZmZmZmZmZzMzLu7u7u7u7u7zMzKqqqqqqqqqqzMzMmZmZmZ
+        mZmZnMzMu7u7u7u7u7vMzMqqqqqqqqqqrMzMyZmZmZmZmZmczMy7u7u7u7u7u8zMyqqqqqqqqqqszMzJ
+        mZmZmZmZmZzMzLu7u7u7u7u7zMzKqqqqqqqqqqzMzMmZmZmZmZmZnMzMu7u7u7u7u7vMzMqqqqqqqqqq
+        rMzMyZmZmZmZmZmczMy7u7u7u7u7u8zMyqqqqqqqqqqszMzJmZmZmZmZmZzMzLu7u7u7u7u7zMzKqqqq
+        qqqqqqzMzMmZmZmZmZmZnMzMu7u7u7u7u7vMzMqqqqqqqqqqrMzMyZmZmZmZmZmczMy7u7u7u7u7u8zM
+        yqqqqqqqqqqszMzJmZmZmZmZmZzMzLu7u7u7u7u7zMzKqqqqqqqqqqzMzMmZmZmZmZmZnMzMu7u7u7u7
+        u7vMzMqqqqqqqqqqrMzMyZmZmZmZmZmczMy7u7u7u7u7u8zMyqqqqqqqqqqszMzJmZmZmZmZmZzMzLu7
+        u7u7u7u7zMzKqqqqqqqqqqzMzMmZmZmZmZmZnMzMu7u7u7u7u7vMzMqqqqqqqqqqrMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzM//////////////////////////////////////////93d3d3d3d3d3d3d3d3d3d3d3d3d3d3
+        d3d3d3d3d3d3d4iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzM//////////////////////////////////////////93d3d3d3d3d3d3
+        d3d3d3d3d3d3d3d3d3d3d3d3d3d3d4iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzO7u7uzMzMzMzMzM7uzMzM
+        zM7szMzuzMzu7u7u7MzMzM7u7M7u7MzMzMzMzO7szMzMzu7MzO7szO7uzMzMzMzMzO7szMzu7MzMzMzM
+        7uzMzMzM7uzMzu7Mzu7MzMzMzMzM7uzMzM7uzMzMzMzu7szMzMzu7szO7uzO7szMzMzMzMzu7MzMzO7s
+        zO7u7u7u7uzMzO7u7M7u7s7u7MzMzMzMzM7uzMzMzu7M7u7u7u7u7szMzu7uzO7u7O7szMzMzMzMzu7M
+        zMzO7szO7MzM7uzMzMzO7u7s7uzu7uzMzMzMzMzO7szMzMzu7MzuzMzu7szMzM7uzu7u7M7u7szMzMzM
+        zM7uzMzMzO7szM7szM7uzMzMzu7s7u7uzO7uzMzMzMzMzO7szMzM7uzMzuzMzu7MzMzM7uzO7u7Mzu7M
+        zMzMzMzM7uzMzMzu7MzO7szM7uzMzMzu7Mzu7szMzMzMzMzMzMzMzMzMzu7MzM7u7Mzu7MzMzO7szM7u
+        zMzMzMzMzM7u7u7u7u7u7szMzu7szO7szu7u7u7MzMzMzMzMzMzMzO7u7u7u7u7MzMzM7szMzu7M7u7u
+        7szMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMwAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAABAAAAAgAAAAAEACAAAAAAAABAAAAAAAAAAAAAAAAEAAAAB
+        AAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDcwADwyqYABAQEAAgICAAMDAwAERERABYW
+        FgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ/wCTANYA/+zMAMbW7wDW5+cAkKmtAAAA
+        MwAAAGYAAACZAAAAzAAAMwAAADMzAAAzZgAAM5kAADPMAAAz/wAAZgAAAGYzAABmZgAAZpkAAGbMAABm
+        /wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADMZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/
+        zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA/wAzMwAAMzMzADMzZgAzM5kAMzPMADMz/wAzZgAAM2YzADNm
+        ZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ/wAzzAAAM8wzADPMZgAzzJkAM8zMADPM
+        /wAz/zMAM/9mADP/mQAz/8wAM///AGYAAABmADMAZgBmAGYAmQBmAMwAZgD/AGYzAABmMzMAZjNmAGYz
+        mQBmM8wAZjP/AGZmAABmZjMAZmZmAGZmmQBmZswAZpkAAGaZMwBmmWYAZpmZAGaZzABmmf8AZswAAGbM
+        MwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8AzACZmQAAmTOZAJkAmQCZAMwAmQAAAJkz
+        MwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz/wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnM
+        AACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/mQCZ/8wAmf//AMwAAACZADMAzABmAMwA
+        mQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwzzADMM/8AzGYAAMxmMwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZ
+        MwDMmWYAzJmZAMyZzADMmf8AzMwAAMzMMwDMzGYAzMyZAMzMzADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/
+        zADM//8AzAAzAP8AZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8zzAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9m
+        zADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/MMwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/
+        ZgD//5kA///MAGZm/wBm/2YAZv//AP9mZgD/Zv8A//9mACEApQBfX18Ad3d3AIaGhgCWlpYAy8vLALKy
+        sgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//
+        AAD///8A/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fz8/Pz8+/v7+/v7+/v7+/v7+/v7+/z8
+        /Pz8+vr6+vr6+vr6+vr6+vr6+vz8/Pz8/Pn5+fn5+fn5+fn5+fn5+fn8/Pz8/Pv7+/v7+/v7+/v7+/v7
+        +/v8/Pz8/Pr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz7+/v7+/v7+/v7
+        +/v7+/v7/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fz8/Pz8+/v7+/v7
+        +/v7+/v7+/v7+/z8/Pz8+vr6+vr6+vr6+vr6+vr6+vz8/Pz8/Pn5+fn5+fn5+fn5+fn5+fn8/Pz8/Pv7
+        +/v7+/v7+/v7+/v7+/v8/Pz8/Pr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz5+fn5+fn5+fn5+fn5+fn5/Pz8
+        /Pz7+/v7+/v7+/v7+/v7+/v7/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5
+        +fz8/Pz8+/v7+/v7+/v7+/v7+/v7+/z8/Pz8+vr6+vr6+vr6+vr6+vr6+vz8/Pz8/Pn5+fn5+fn5+fn5
+        +fn5+fn8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v8/Pz8/Pr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz5+fn5+fn5
+        +fn5+fn5+fn5/Pz8/Pz7+/v7+/v7+/v7+/v7+/v7/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6/Pz8/Pz8+fn5
+        +fn5+fn5+fn5+fn5+fz8/Pz8+/v7+/v7+/v7+/v7+/v7+/z8/Pz8+vr6+vr6+vr6+vr6+vr6+vz8/Pz8
+        /Pn5+fn5+fn5+fn5+fn5+fn8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v8/Pz8/Pr6+vr6+vr6+vr6+vr6+vr8
+        /Pz8/Pz5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz7+/v7+/v7+/v7+/v7+/v7/Pz8/Pz6+vr6+vr6+vr6+vr6
+        +vr6/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fz8/Pz8+/v7+/v7+/v7+/v7+/v7+/z8/Pz8+vr6+vr6+vr6
+        +vr6+vr6+vz8/Pz8/Pn5+fn5+fn5+fn5+fn5+fn8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v8/Pz8/Pr6+vr6
+        +vr6+vr6+vr6+vr8/Pz8/Pz5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz7+/v7+/v7+/v7+/v7+/v7/Pz8/Pz6
+        +vr6+vr6+vr6+vr6+vr6/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fz8/Pz8+/v7+/v7+/v7+/v7+/v7+/z8
+        /Pz8+vr6+vr6+vr6+vr6+vr6+vz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8////////
+        /////////////////////////////////////////////////////////////////////////////wcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH
+        Bwfs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs
+        7Ozs7OzsCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCvz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8////////////////////////////////////////////////////////
+        /////////////////////////////wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwfs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs
+        7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCvz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz+/v7+/v7+/Pz8/Pz8/Pz8/Pz8/Pz8/v7+/Pz8/Pz8/Pz8/v78/Pz8/P7+/Pz8/P7+
+        /v7+/v7+/vz8/Pz8/Pz8/v7+/vz8/v7+/vz8/Pz8/Pz8/Pz8/Pz+/v78/Pz8/Pz8/P7+/vz8/Pz+/v78
+        /Pz+/v7+/Pz8/Pz8/Pz8/Pz8/Pz+/v78/Pz8/P7+/vz8/Pz8/Pz8/Pz8/v7+/Pz8/Pz8/Pz8/v7+/Pz8
+        /P7+/vz8/P7+/vz8/Pz8/Pz8/Pz8/Pz8/v7+/Pz8/Pz8/v7+/Pz8/Pz8/Pz8/P7+/v78/Pz8/Pz8/P7+
+        /v78/Pz+/v7+/Pz+/v78/Pz8/Pz8/Pz8/Pz8/P7+/vz8/Pz8/Pz+/v78/Pz+/v7+/v7+/v7+/v7+/Pz8
+        /Pz+/v7+/vz8/v7+/v78/v7+/vz8/Pz8/Pz8/Pz8/Pz8/v7+/Pz8/Pz8/P7+/vz8/v7+/v7+/v7+/v7+
+        /v78/Pz8/P7+/v7+/Pz+/v7+/vz+/v78/Pz8/Pz8/Pz8/Pz8/P7+/vz8/Pz8/Pz+/v78/Pz+/vz8/Pz8
+        /v7+/Pz8/Pz8/Pz+/v7+/v78/v7+/P7+/v7+/Pz8/Pz8/Pz8/Pz8/Pz+/v78/Pz8/Pz8/P7+/vz8/P7+
+        /Pz8/P7+/v78/Pz8/Pz8/v7+/P7+/v7+/vz8/v7+/v78/Pz8/Pz8/Pz8/Pz8/v7+/Pz8/Pz8/Pz+/v78
+        /Pz8/v78/Pz8/v7+/Pz8/Pz8/P7+/v78/v7+/v7+/Pz+/v7+/Pz8/Pz8/Pz8/Pz8/Pz+/v78/Pz8/Pz8
+        /v7+/Pz8/P7+/Pz8/P7+/vz8/Pz8/Pz8/v7+/Pz+/v7+/vz8/P7+/vz8/Pz8/Pz8/Pz8/Pz8/v7+/Pz8
+        /Pz8/P7+/vz8/Pz+/v78/Pz8/v7+/Pz8/Pz8/P7+/vz8/P7+/v78/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/P7+/vz8/Pz8/v7+/vz8/P7+/vz8/Pz8/Pz+/v78/Pz8/v7+/Pz8/Pz8/Pz8/Pz8/Pz8/v7+
+        /v7+/v7+/v7+/v7+/v78/Pz8/P7+/v78/Pz+/v78/P7+/v7+/v7+/vz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz+/v7+/v7+/v7+/v7+/vz8/Pz8/Pz8/v78/Pz8/P7+/vz8/v7+/v7+/v78/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAGAA
+        AADAAAAAAQAEAAAAAAAAEgAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICA
+        AADAwMAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wDMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzK
+        qqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqs
+        zMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZ
+        mZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7
+        u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzK
+        qqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqs
+        zMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZ
+        mZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7
+        u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzK
+        qqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqs
+        zMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZ
+        mZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7
+        u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzK
+        qqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqs
+        zMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZ
+        mZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7
+        u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzK
+        qqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqs
+        zMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZ
+        mZmZmZzMzMy7u7u7u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMmZmZmZmZmZmZmZmZzMzMy7u7u7
+        u7u7u7u7u7vMzMzKqqqqqqqqqqqqqqqszMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMz/////////////
+        //////////////////////////////////////////////////93d3d3d3d3d3d3d3d3d3d3d3d3d3d3
+        d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3eIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+        iIiIiIiIiIiIiIiIiIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMz/////////////////////////////
+        //////////////////////////////////93d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3
+        d3d3d3d3d3d3d3d3d3eIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
+        iIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzu7u7u7szMzMzMzMzMzMzMzM7u7szMzMzMzM7u7szMzM7u7szMzu7u7u7szMzMzMzu7u7u7u7u
+        zMzMzMzMzMzMzMzu7uzMzMzMzM7u7uzMzM7u7uzMzu7u7u7uzMzMzMzO7u7u7u7u7szMzMzMzMzMzMzu
+        7uzMzMzMzMzu7u7MzM7u7u7Mzu7u7u7u7MzMzMzO7u7szO7u7u7MzMzMzMzMzMzu7u7MzMzMzMzu7u7s
+        zM7u7u7szu7u7szMzMzMzMzO7u7uzMzO7u7szMzMzMzMzMzO7u7MzMzMzMzu7u7uzM7u7u7szO7u7szM
+        zMzMzMzM7u7uzMzM7u7uzMzMzMzMzMzO7u7MzMzMzMzO7u7uzMzu7u7uzO7u7uzMzMzMzMzM7u7uzMzM
+        zO7u7MzMzu7u7u7u7u7u7uzMzMzO7u7u7Mzu7u7u7M7u7uzMzMzMzMzM7u7u7MzMzM7u7szMzu7u7u7u
+        7u7u7uzMzMzO7u7u7szu7u7u7s7u7u7MzMzMzMzMzu7u7MzMzM7u7uzMzO7u7u7u7u7u7uzMzMzM7u7u
+        7uzO7u7u7u7u7u7MzMzMzMzMzu7u7MzMzMzu7uzMzM7u7u7u7u7u7u7MzMzM7u7u7uzO7u7s7u7u7u7M
+        zMzMzMzMzu7u7szMzMzu7u7MzMzu7MzMzu7uzMzMzMzM7u7u7u7O7u7uzu7u7u7szMzMzMzMzO7u7szM
+        zMzO7u7MzMzO7szMzu7u7MzMzMzMzu7u7O7s7u7uzO7u7u7szMzMzMzMzO7u7szMzMzO7u7szMzM7uzM
+        zu7u7MzMzMzMzu7u7M7u7u7uzM7u7u7uzMzMzMzMzO7u7uzMzMzO7u7szMzMzu7MzO7u7MzMzMzMzu7u
+        7szu7u7u7Mzu7u7uzMzMzMzMzM7u7uzMzMzO7u7szMzO7u7szO7u7szMzMzMzO7u7szu7u7u7MzO7u7u
+        zMzMzMzMzM7u7uzMzMzO7u7szMzO7u7uzM7u7szMzMzMzO7u7szO7u7u7MzM7u7szMzMzMzMzMzMzMzM
+        zMzu7u7szMzu7u7uzM7u7szMzMzMzO7u7szM7u7u7MzMzMzMzMzMzMzMzMzMzMzMzM7u7u7MzMzu7u7u
+        zM7u7uzMzMzMzM7u7uzMzu7u7szMzMzMzMzMzO7u7u7u7u7u7u7u7u7MzMzu7u7uzMzu7uzMzu7u7u7u
+        7uzMzO7u7szMzMzMzMzMzM7u7u7u7u7u7u7u7uzMzMzu7u7uzMzu7uzMzO7u7u7u7uzMzM7u7MzMzMzM
+        zMzMzM7u7u7u7u7u7u7u7szMzMzO7u7szMzu7u7MzO7u7u7u7u7MzMzMzMzMzMzMzMzMzMzu7u7u7u7u
+        7u7szMzMzMzM7u7MzMzO7u7MzM7u7u7u7uzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzM
+        zMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAYAAAAMAAAAABAAgAAAAAAAAk
+        AAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwADA3MAA8MqmAAQE
+        BAAICAgADAwMABEREQAWFhYAHBwcACIiIgApKSkAVVVVAE1NTQBCQkIAOTk5AIB8/wBQUP8AkwDWAP/s
+        zADG1u8A1ufnAJCprQAAADMAAABmAAAAmQAAAMwAADMAAAAzMwAAM2YAADOZAAAzzAAAM/8AAGYAAABm
+        MwAAZmYAAGaZAABmzAAAZv8AAJkAAACZMwAAmWYAAJmZAACZzAAAmf8AAMwAAADMMwAAzGYAAMyZAADM
+        zAAAzP8AAP9mAAD/mQAA/8wAMwAAADMAMwAzAGYAMwCZADMAzAAzAP8AMzMAADMzMwAzM2YAMzOZADMz
+        zAAzM/8AM2YAADNmMwAzZmYAM2aZADNmzAAzZv8AM5kAADOZMwAzmWYAM5mZADOZzAAzmf8AM8wAADPM
+        MwAzzGYAM8yZADPMzAAzzP8AM/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYAZgBmAJkAZgDMAGYA
+        /wBmMwAAZjMzAGYzZgBmM5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZAABmmTMAZplmAGaZ
+        mQBmmcwAZpn/AGbMAABmzDMAZsyZAGbMzABmzP8AZv8AAGb/MwBm/5kAZv/MAMwA/wD/AMwAmZkAAJkz
+        mQCZAJkAmQDMAJkAAACZMzMAmQBmAJkzzACZAP8AmWYAAJlmMwCZM2YAmWaZAJlmzACZM/8AmZkzAJmZ
+        ZgCZmZkAmZnMAJmZ/wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnMZgCZ/5kAmf/MAJn/
+        /wDMAAAAmQAzAMwAZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxmAADMZjMAmWZmAMxm
+        mQDMZswAmWb/AMyZAADMmTMAzJlmAMyZmQDMmcwAzJn/AMzMAADMzDMAzMxmAMzMmQDMzMwAzMz/AMz/
+        AADM/zMAmf9mAMz/mQDM/8wAzP//AMwAMwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8zmQD/M8wA/zP/AP9m
+        AAD/ZjMAzGZmAP9mmQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/MAAD/zDMA/8xmAP/M
+        mQD/zMwA/8z/AP//MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//ZgAhAKUAX19fAHd3
+        dwCGhoYAlpaWAMvLywCysrIA19fXAN3d3QDj4+MA6urqAPHx8QD4+PgA8Pv/AKSgoACAgIAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////APz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8
+        /Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6
+        +vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7
+        +/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6
+        +vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7
+        +/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8
+        /Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8
+        /Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6
+        +vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7
+        +/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6
+        +vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7
+        +/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8
+        /Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8
+        /Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6
+        +vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7
+        +/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6
+        +vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7
+        +/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8
+        /Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8
+        /Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6
+        +vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7
+        +/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6
+        +vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7
+        +/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8
+        /Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8
+        /Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5
+        +fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6
+        +vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7
+        +/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5
+        +fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6
+        +vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8/Pz8+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5/Pz8/Pz8/Pv7
+        +/v7+/v7+/v7+/v7+/v7+/v7+/v7+/z8/Pz8/Pz6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/P//////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////////wcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB+zs
+        7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs
+        7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7AoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCvz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/P//////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////////wcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB+zs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs
+        7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs
+        7Ozs7Ozs7Ozs7AoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCvz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/P7+/v7+/v7+/v78/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/v7+/v78/Pz8
+        /Pz8/Pz8/Pz8/v7+/v78/Pz8/Pz8/v7+/v78/Pz8/P7+/v7+/v7+/v78/Pz8/Pz8/Pz8/P7+/v7+/v7+
+        /v7+/v7+/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/P7+/v7+/Pz8/Pz8/Pz8/Pz8/v7+/v7+/Pz8/Pz8/v7+
+        /v7+/Pz8/P7+/v7+/v7+/v7+/Pz8/Pz8/Pz8/Pz+/v7+/v7+/v7+/v7+/v78/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/P7+/v7+/Pz8/Pz8/Pz8/Pz8/P7+/v7+/vz8/Pz8/v7+/v7+/vz8/P7+/v7+/v7+/v7+/vz8/Pz8
+        /Pz8/Pz+/v7+/v78/Pz+/v7+/v7+/vz8/Pz8/Pz8/Pz8/Pz8/Pz8/P7+/v7+/vz8/Pz8/Pz8/Pz8/P7+
+        /v7+/v78/Pz8/v7+/v7+/v78/P7+/v7+/v78/Pz8/Pz8/Pz8/Pz8/Pz+/v7+/v7+/Pz8/Pz+/v7+/v78
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz+/v7+/vz8/Pz8/Pz8/Pz8/P7+/v7+/v7+/Pz8/v7+/v7+/v78/Pz+/v7+
+        /v78/Pz8/Pz8/Pz8/Pz8/Pz8/v7+/v7+/Pz8/Pz8/v7+/v7+/Pz8/Pz8/Pz8/Pz8/Pz8/Pz+/v7+/vz8
+        /Pz8/Pz8/Pz8/Pz+/v7+/v7+/Pz8/P7+/v7+/v7+/Pz+/v7+/v7+/Pz8/Pz8/Pz8/Pz8/Pz8/v7+/v7+
+        /Pz8/Pz8/Pz+/v7+/vz8/Pz8/P7+/v7+/v7+/v7+/v7+/v7+/v7+/Pz8/Pz8/Pz+/v7+/v7+/vz8/P7+
+        /v7+/v7+/vz8/v7+/v7+/Pz8/Pz8/Pz8/Pz8/Pz8/v7+/v7+/vz8/Pz8/Pz8/v7+/v78/Pz8/P7+/v7+
+        /v7+/v7+/v7+/v7+/v7+/Pz8/Pz8/Pz+/v7+/v7+/v78/P7+/v7+/v7+/v78/v7+/v7+/vz8/Pz8/Pz8
+        /Pz8/Pz8/P7+/v7+/vz8/Pz8/Pz8/v7+/v7+/Pz8/Pz+/v7+/v7+/v7+/v7+/v7+/v7+/Pz8/Pz8/Pz8
+        /v7+/v7+/v7+/Pz+/v7+/v7+/v7+/v7+/v7+/vz8/Pz8/Pz8/Pz8/Pz8/P7+/v7+/vz8/Pz8/Pz8/P7+
+        /v7+/Pz8/Pz8/v7+/v7+/v7+/v7+/v7+/v7+/vz8/Pz8/Pz8/v7+/v7+/v7+/Pz+/v7+/v78/v7+/v7+
+        /v7+/vz8/Pz8/Pz8/Pz8/Pz8/P7+/v7+/v78/Pz8/Pz8/P7+/v7+/vz8/Pz8/P7+/vz8/Pz8/P7+/v7+
+        /Pz8/Pz8/Pz8/Pz8/v7+/v7+/v7+/vz+/v7+/v7+/P7+/v7+/v7+/v78/Pz8/Pz8/Pz8/Pz8/Pz+/v7+
+        /v78/Pz8/Pz8/Pz+/v7+/vz8/Pz8/Pz+/v78/Pz8/P7+/v7+/vz8/Pz8/Pz8/Pz8/P7+/v7+/vz+/v78
+        /v7+/v7+/Pz+/v7+/v7+/v78/Pz8/Pz8/Pz8/Pz8/Pz+/v7+/v78/Pz8/Pz8/Pz+/v7+/v78/Pz8/Pz8
+        /v7+/Pz8/P7+/v7+/vz8/Pz8/Pz8/Pz8/P7+/v7+/vz8/v7+/v7+/v7+/Pz8/v7+/v7+/v7+/Pz8/Pz8
+        /Pz8/Pz8/Pz+/v7+/v7+/Pz8/Pz8/Pz+/v7+/v78/Pz8/Pz8/P7+/vz8/Pz+/v7+/vz8/Pz8/Pz8/Pz8
+        /P7+/v7+/v78/P7+/v7+/v7+/vz8/P7+/v7+/v7+/Pz8/Pz8/Pz8/Pz8/Pz8/v7+/v7+/Pz8/Pz8/Pz+
+        /v7+/v78/Pz8/Pz+/v7+/v78/Pz+/v7+/v78/Pz8/Pz8/Pz8/Pz+/v7+/v78/P7+/v7+/v7+/vz8/Pz+
+        /v7+/v7+/Pz8/Pz8/Pz8/Pz8/Pz8/v7+/v7+/Pz8/Pz8/Pz+/v7+/v78/Pz8/Pz+/v7+/v7+/Pz8/v7+
+        /v78/Pz8/Pz8/Pz8/Pz+/v7+/v78/Pz+/v7+/v7+/vz8/Pz8/v7+/v78/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/P7+/v7+/v78/Pz8/P7+/v7+/v7+/Pz8/v7+/v78/Pz8/Pz8/Pz8/Pz+/v7+/v78/Pz8
+        /v7+/v7+/vz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/v7+/v7+/vz8/Pz8/P7+
+        /v7+/v7+/Pz8/v7+/v7+/Pz8/Pz8/Pz8/Pz8/v7+/v7+/Pz8/P7+/v7+/v78/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/vz8/Pz8/P7+/v7+/v7+/Pz8/P7+/v7+/Pz8/P7+/v7+
+        /v7+/v7+/v7+/Pz8/Pz+/v7+/v78/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/v7+/v7+/v7+/v7+/v7+/v7+/v7+
+        /v7+/Pz8/Pz8/P7+/v7+/v7+/Pz8/P7+/v7+/Pz8/Pz+/v7+/v7+/v7+/v7+/Pz8/Pz8/v7+/vz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v78/Pz8/Pz8/Pz+/v7+/v78/Pz8/P7+
+        /v7+/vz8/Pz+/v7+/v7+/v7+/v7+/vz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/P7+/v7+/v7+
+        /v7+/v7+/v7+/v78/Pz8/Pz8/Pz8/Pz8/v7+/vz8/Pz8/Pz+/v7+/vz8/Pz8/v7+/v7+/v7+/v7+/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8
+        /Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/Pz8/AAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Trade Calculator - Help &amp; Information</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tradeTopicsToolStripMenuItem.Name" xml:space="preserve">
+    <value>tradeTopicsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tradeTopicsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ascendingTriangleToolStripMenuItem.Name" xml:space="preserve">
+    <value>ascendingTriangleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ascendingTriangleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;descendingTriangleToolStripMenuItem.Name" xml:space="preserve">
+    <value>descendingTriangleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;descendingTriangleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;eMA10FollowerToolStripMenuItem.Name" xml:space="preserve">
+    <value>eMA10FollowerToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;eMA10FollowerToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flagpoleToolStripMenuItem.Name" xml:space="preserve">
+    <value>flagpoleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;flagpoleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;horizontalRangeToolStripMenuItem.Name" xml:space="preserve">
+    <value>horizontalRangeToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;horizontalRangeToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;slingShotToolStripMenuItem.Name" xml:space="preserve">
+    <value>slingShotToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;slingShotToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;symmetricalTriangleToolStripMenuItem.Name" xml:space="preserve">
+    <value>symmetricalTriangleToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;symmetricalTriangleToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>HelpFrm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

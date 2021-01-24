@@ -1,0 +1,17 @@
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\ResolveAssemblyReference.cache
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator2.csproj.GenerateResource.Cache
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator.AboutBox1.resources
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator.Properties.Resources.resources
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator.trdcalc.resources
+D:\C#\TradeCalculator2\TradeCalculator2\bin\Release\TradeCalculator.exe.config
+D:\C#\TradeCalculator2\TradeCalculator2\bin\Release\TradeCalculator.exe.manifest
+D:\C#\TradeCalculator2\TradeCalculator2\bin\Release\TradeCalculator.application
+D:\C#\TradeCalculator2\TradeCalculator2\bin\Release\TradeCalculator.exe
+D:\C#\TradeCalculator2\TradeCalculator2\bin\Release\TradeCalculator.pdb
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator.TrustInfo.xml
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator.exe.manifest
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator.application
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator.exe
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator.pdb
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator.NewCurrencyPairForm.resources
+D:\C#\TradeCalculator2\TradeCalculator2\obj\Release\TradeCalculator.HelpFrm.resources

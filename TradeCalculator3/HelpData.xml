@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<HelpData>
+	<subject name="AscendingTriangle">
+		<conditions>The instrument trades within an ascending triangular form. Breakout in upward direction expected.</conditions>
+		<setup></setup>
+		<maintenance></maintenance>
+	</subject>
+
+	<subject name="">
+		<conditions></conditions>
+		<setup></setup>
+		<maintenance></maintenance>
+	</subject>
+</HelpData>

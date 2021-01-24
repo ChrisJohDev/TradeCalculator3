@@ -1,0 +1,27 @@
+D:\C#\TradeCalculator3\TradeCalculator3\bin\Debug\TradeCalculator.exe.config
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\TradeCalculator.exe
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\TradeCalculator.pdb
+D:\C#\TradeCalculator3\TradeCalculator3\bin\Debug\TradeCalculator.exe.manifest
+D:\C#\TradeCalculator3\TradeCalculator3\bin\Debug\TradeCalculator.application
+D:\C#\TradeCalculator3\TradeCalculator3\bin\Debug\TradeCalculator.exe
+D:\C#\TradeCalculator3\TradeCalculator3\bin\Debug\TradeCalculator.pdb
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\ResolveAssemblyReference.cache
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\TradeCalculator3.csproj.GenerateResource.Cache
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\TradeCalculator.TrustInfo.xml
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\TradeCalculator.exe.manifest
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\TradeCalculator.application
+D:\C#\TradeCalculator3\TradeCalculator3\bin\Debug\build.xml
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\Data4Mat.TradeCalculator.AboutBox1.resources
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\Data4Mat.TradeCalculator.HelpFrm.resources
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\Data4Mat.TradeCalculator.NewCurrencyPairForm.resources
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\Data4Mat.TradeCalculator.Properties.Resources.resources
+D:\C#\TradeCalculator3\TradeCalculator3\obj\Debug\Data4Mat.TradeCalculator.trdcalc.resources
+F:\CV - Projects\Programming Projects\C#\TradeCalculator3\TradeCalculator3\obj\Debug\TradeCalculator3.csprojAssemblyReference.cache
+F:\CV - Projects\Programming Projects\C#\TradeCalculator3\TradeCalculator3\obj\Debug\Data4Mat.TradeCalculator.AboutBox1.resources
+F:\CV - Projects\Programming Projects\C#\TradeCalculator3\TradeCalculator3\obj\Debug\Data4Mat.TradeCalculator.HelpFrm.resources
+F:\CV - Projects\Programming Projects\C#\TradeCalculator3\TradeCalculator3\obj\Debug\Data4Mat.TradeCalculator.NewCurrencyPairForm.resources
+F:\CV - Projects\Programming Projects\C#\TradeCalculator3\TradeCalculator3\obj\Debug\Data4Mat.TradeCalculator.Properties.Resources.resources
+F:\CV - Projects\Programming Projects\C#\TradeCalculator3\TradeCalculator3\obj\Debug\Data4Mat.TradeCalculator.trdcalc.resources
+F:\CV - Projects\Programming Projects\C#\TradeCalculator3\TradeCalculator3\obj\Debug\TradeCalculator3.csproj.GenerateResource.cache
+F:\CV - Projects\Programming Projects\C#\TradeCalculator3\TradeCalculator3\obj\Debug\TradeCalculator.exe
+F:\CV - Projects\Programming Projects\C#\TradeCalculator3\TradeCalculator3\obj\Debug\TradeCalculator.pdb

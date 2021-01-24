@@ -1,0 +1,22 @@
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\bin\Debug\TradeCalculator1.exe
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\bin\Debug\TradeCalculator1.pdb
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Debug\TradeCalculator1.trdcalc1.resources
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Debug\TradeCalculator1.Properties.Resources.resources
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Debug\TradeCalculator1.csproj.GenerateResource.Cache
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Debug\TradeCalculator1.exe
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Debug\TradeCalculator1.pdb
+D:\C#\TradeCalculator1\TradeCalculator1\bin\Debug\TradeCalculator1.exe.manifest
+D:\C#\TradeCalculator1\TradeCalculator1\bin\Debug\TradeCalculator1.application
+D:\C#\TradeCalculator1\TradeCalculator1\bin\Debug\TradeCalculator1.exe
+D:\C#\TradeCalculator1\TradeCalculator1\bin\Debug\TradeCalculator1.pdb
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Debug\ResolveAssemblyReference.cache
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Debug\TradeCalculator1.trdcalc1.resources
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Debug\TradeCalculator1.Properties.Resources.resources
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Debug\TradeCalculator1.csproj.GenerateResource.Cache
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Debug\TradeCalculator1.exe.manifest
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Debug\TradeCalculator1.application
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Debug\TradeCalculator1.exe
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Debug\TradeCalculator1.pdb
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Debug\TradeCalculator1.AboutBox1.resources
+D:\C#\TradeCalculator1\TradeCalculator1\bin\Debug\TradeCalculator1.exe.config

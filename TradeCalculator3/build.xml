@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TradeCalculator</name>
+    </assembly>
+    <members>
+        <member name="T:Data4Mat.TradeCalculator.trdcalc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.trdcalc.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.Initialize">
+            <summary>
+            Initializes the form to its default layout and default content.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.alwaysOnTopToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Toggles the setting of keeping the application window
+            on top of other windows on the the screen.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.addCurrencyToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Runs the new currency interface.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.frm_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            <summary>
+            Event Handler for the form closing event of the NewCurrencyPairForm.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.CalculateSymmetricalTriangleBreakoutData">
+            <summary>
+            Symmetrical triangle breakout calculation 1 leg version.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.CalculateSymmetricalTriangle2LegBreakoutData">
+            <summary>
+            Symmetrical triangle breakout calculation 2 leg version.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.GetData">
+            <summary>
+            Collects input data from the form.
+            dbl_input1, dbl_input2, dbl_input3, and ordersize
+            Sets: currFormat and numFormat
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.LoadCurrencies">
+            <summary>
+            Loads the content of the currency provider into the combobox box_currency
+            and sets the default to index 0.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.trdcalc.TradeSetup(Data4Mat.TradeCalculator.TradeMethod)">
+            <summary>
+            Runs the trade setup for the provided input.
+            Used for setting up the correct trade setup when reading in
+            data from a file.
+            </summary>
+            <param name="tm">TradeMethod enumeration</param>
+        </member>
+        <member name="T:Data4Mat.TradeCalculator.NewCurrencyPairForm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.NewCurrencyPairForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.NewCurrencyPairForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.NewCurrencyPairForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.NewCurrencyPairForm.#ctor">
+            <summary>
+            Constructor NewCurrencyPairForm
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.NewCurrencyPairForm.Inputs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.NewCurrencyPairForm.Canceled">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Data4Mat.TradeCalculator.HelpFrm">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.HelpFrm.#ctor">
+            <summary>
+            Constructor Helpfrm
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.HelpFrm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.HelpFrm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.HelpFrm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.AboutBox1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.AboutBox1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.AboutBox1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Data4Mat.TradeCalculator.CurrencyDataProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.CurrencyDataProvider.#ctor">
+            <summary>
+            Constructor CurrencyDataProvider
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.CurrencyDataProvider.WriteData(System.Boolean)">
+            <summary>
+            Writes the new currency pair to the storage area
+            </summary>
+            <param name="append">True if new currency pair should be appeneded to the list of currency pairs</param>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.CurrencyDataProvider.Currencies">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Data4Mat.TradeCalculator.cr">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.cr.Copy(Data4Mat.TradeCalculator.cr@)">
+            <summary>
+            Copy's the content of this object to the object supplied
+            </summary>
+            <param name="obj">The object to copy to</param>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.cr.CurrencyIndex">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.cr.LotSize">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.cr.TickValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.cr.CurrencyPair">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.cr.QuoteCurrency">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.cr.Spread">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.cr.Decimals">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.cr.CurrencyPrefix">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Data4Mat.TradeCalculator.crs">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.crs.#ctor">
+            <summary>
+            Constructor crs object
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.crs.GetCurrency(System.Int32)">
+            <summary>
+            Returns the currency pair at index location "index" as a cr object
+            </summary>
+            <param name="index">Index</param>
+            <returns>Returns the cr object at location "index"</returns>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.crs.GetCurrency(System.String)">
+            <summary>
+            Returns the Currency Pair that matches the string "currPair" if found
+            otherwise returns null.
+            </summary>
+            <param name="currPair">The currency pair to look for</param>
+            <returns>The cr object matching the search string on success, or null on failure</returns>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.crs.Add(Data4Mat.TradeCalculator.cr)">
+            <summary>
+            Adds a cr object to the list of cr objects
+            </summary>
+            <param name="curr">Object to add to the list</param>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.crs.Add(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+            <summary>
+            Overloaded version of Add. Adds a new cr object to the list of cr objects
+            </summary>
+            <param name="indx">The index paramter</param>
+            <param name="pair">The currency pair name. (On the form EUR/USD)</param>
+            <param name="quote">The quote currency</param>
+            <param name="lotsize">Size of a lot for the pair in the quote currency</param>
+            <param name="tickvalue">The value of one PIP in the quote currency</param>
+            <param name="spread">The pair's normal spread</param>
+            <param name="digits">Number of decimals used for quoting the currency. Normally 4 or 2</param>
+            <param name="prefix">The quote currency's prefix for example ¥ for JPY</param>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.crs.Length">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Data4Mat.TradeCalculator.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.Properties.Resources.currencies">
+             <summary>
+               Looks up a localized string similar to 0,EUR/USD,USD,100000,10,2,4,$
+            1,GBP/USD,USD,100000,10,3,4,$
+            2,AUD/USD,USD,100000,10,3,4,$
+            3,NZD/USD,USD,100000,10,6,4,$
+            .
+             </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.Properties.Resources.CurrenciesDataFile">
+            <summary>
+              Looks up a localized string similar to ..\..\Data\currencies.csv.
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.Properties.Resources.SlingShotOffset">
+            <summary>
+              Looks up a localized string similar to 15.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.RiskRewardRatioItem.#ctor">
+            <summary>
+            Constructor RiskRewardRatioItem. Overloded.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.RiskRewardRatioItem.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Constructor overload of RiskRewardRatioItem.
+            </summary>
+            <param name="risk">The risk value</param>
+            <param name="reward">The reward value</param>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.RiskRewardRatioItem.GetRatio(System.Int32)">
+            <summary>
+            Returns the ratio on the form of Reward/Risk rounded to "decimals" decimals accuracy.
+            </summary>
+            /// <param name="decimals">Number of decimals in the return value.</param>
+            <returns>The ratio between reward and risk</returns>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.RiskRewardRatioItem.GetRatio">
+            <summary>
+            Returns the ratio on the form of Reward/Risk rounded to 4 decimals accuracy.
+            </summary>
+            <returns>The ratio between reward and risk</returns>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.RiskRewardRatioItem.Copy(Data4Mat.TradeCalculator.RiskRewardRatioItem)">
+            <summary>
+            Copies the provided item to this object.
+            </summary>
+            <param name="item">The RiskRewardRatioItem to copy from</param>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.RiskRewardRatioItem.CopyTo(Data4Mat.TradeCalculator.RiskRewardRatioItem@)">
+            <summary>
+            Copy's this object to the supplied object.
+            </summary>
+            <param name="item">The RiskRewardRatioItem to copy to</param>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.RiskRewardRatioItem.Risk">
+            <summary>
+            Get set the Risk value
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.RiskRewardRatioItem.Reward">
+            <summary>
+            Get Set the Reward value
+            </summary>
+        </member>
+        <member name="P:Data4Mat.TradeCalculator.RiskRewardRatioItem.Ratio">
+            <summary>
+            Get the ratio in a string format of Reward:Risk
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.RiskRewardRatioItems.#ctor">
+            <summary>
+            Constructor RiskRewardRatioItems.
+            Sets the default array of 13 ratios on the form Reward:Risk.
+            2:1, 7:4, 5:3, 3:2, 4:3, 5:4, 1:1, 4:5, 3:4, 2:3, 3:5, 4:7, 1:2,
+            </summary>
+        </member>
+        <member name="T:Data4Mat.TradeCalculator.TradeMethod">
+            <summary>
+            Enumeration for trade methods
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.TradeMethod.None">
+            <summary>
+            No function selected, Default.
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.TradeMethod.FlagPole">
+            <summary>
+            Trading the Flagpole formation
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.TradeMethod.SlingShot">
+            <summary>
+            Trading Sling Shot
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.TradeMethod.AscendingTriangle">
+            <summary>
+            Trading Ascending Triangle Breakout
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.TradeMethod.DescendingTriangle">
+            <summary>
+            Trading Descending Triangel Breakout
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.TradeMethod.HorrLineBreak">
+            <summary>
+            Trading Horrizontal Range Breakout
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.TradeMethod.EMA10Setup">
+            <summary>
+            Trading EMA(10) Follower - Trending technique
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.TradeMethod.EMA10Maintain">
+            <summary>
+            Periodic maintanance for EMA(10) trend following trade
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.TradeMethod.SymmTriBreak">
+            <summary>
+            Symmetrical Triangle Breakout 1 leg version
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.TradeMethod.SymmTri2LegBreak">
+            <summary>
+            Symmetrical Triangle Breakout 2 leg version
+            </summary>
+        </member>
+        <member name="T:Data4Mat.TradeCalculator.RiskRewardType">
+            <summary>
+            Enumeration for Risk/Reward types
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.RiskRewardType.PIP_Based">
+            <summary>
+            Base calculations and assumptions on that it is the PIP value that
+            should be used for any Risk/Reward calculations and selections.
+            </summary>
+        </member>
+        <member name="F:Data4Mat.TradeCalculator.RiskRewardType.Amount_Based">
+            <summary>
+            Base calculations and assumptions on that it is the Amount in currency that
+            should be used for any Risk/Reward calculations and selections.
+            </summary>
+        </member>
+        <member name="M:Data4Mat.TradeCalculator.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>

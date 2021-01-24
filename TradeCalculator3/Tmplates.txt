@@ -1,0 +1,74 @@
+﻿Calculations Tempplate
+				
+				// Calculate entry point (Optional)
+				
+				// Calculate intemittant values (Optional)
+
+				if (this.b_tradeDirectionUp) // Up direction
+				{
+					// Calculate entry point (If not direction independant)
+				
+					// Calculate intemittant values (If not direction independant)
+	
+					// Calculate Stop/Loss
+					if (this.b_stopLoss) // Spread Compensation
+					{
+					}
+					else // No Spread Compensation
+					{
+					}
+
+					// Calculate Exit1
+					if (this.b_riskRewardOn) // Risk/Reward ratio calculation
+					{
+						if (this.b_riskRewPips) // Risk/Reward ratio based on PIPs
+						{
+						}
+						else // Risk/Reward ratio based on amount
+						{
+						}
+					}
+					else // No Risk/Reward ratio calculation
+					{
+						if (this.b_exit1) // Spread compensate Exit1
+						{
+						}
+						else // No spread compensation
+						{
+						}
+					}
+				}
+				else // Down direction
+				{
+					// Calculate entry point (If not direction independant)
+				
+					// Calculate intemittant values (If not direction independant)
+					
+					// Calculate Stop/Loss
+					if (this.b_stopLoss) // Spread Compensation
+					{
+					}
+					else // No Spread Compensation
+					{
+					}
+
+					// Calculate Exit1
+					if (this.b_riskRewardOn) // Risk/Reward ratio calculation
+					{
+						if (this.b_riskRewPips) // Risk/Reward ratio based on PIPs
+						{
+						}
+						else // Risk/Reward ratio based on amount
+						{
+						}
+					}
+					else // No Risk/Reward ratio calculation
+					{
+						if (this.b_exit1) // Spread compensate Exit1
+						{
+						}
+						else // No spread compensation
+						{
+						}
+					}
+				}

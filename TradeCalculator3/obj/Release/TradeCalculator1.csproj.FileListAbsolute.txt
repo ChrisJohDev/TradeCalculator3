@@ -1,0 +1,22 @@
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\bin\Release\TradeCalculator1.exe
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\bin\Release\TradeCalculator1.pdb
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Release\ResolveAssemblyReference.cache
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Release\TradeCalculator1.trdcalc1.resources
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Release\TradeCalculator1.Properties.Resources.resources
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Release\TradeCalculator1.csproj.GenerateResource.Cache
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Release\TradeCalculator1.exe
+C:\Users\chris\AppData\Local\Temporary Projects\TradeCalculator1\obj\Release\TradeCalculator1.pdb
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Release\ResolveAssemblyReference.cache
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Release\TradeCalculator1.trdcalc1.resources
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Release\TradeCalculator1.Properties.Resources.resources
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Release\TradeCalculator1.csproj.GenerateResource.Cache
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Release\TradeCalculator1.AboutBox1.resources
+D:\C#\TradeCalculator1\TradeCalculator1\bin\Release\TradeCalculator1.exe.config
+D:\C#\TradeCalculator1\TradeCalculator1\bin\Release\TradeCalculator1.exe.manifest
+D:\C#\TradeCalculator1\TradeCalculator1\bin\Release\TradeCalculator1.application
+D:\C#\TradeCalculator1\TradeCalculator1\bin\Release\TradeCalculator1.exe
+D:\C#\TradeCalculator1\TradeCalculator1\bin\Release\TradeCalculator1.pdb
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Release\TradeCalculator1.exe.manifest
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Release\TradeCalculator1.application
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Release\TradeCalculator1.exe
+D:\C#\TradeCalculator1\TradeCalculator1\obj\Release\TradeCalculator1.pdb
